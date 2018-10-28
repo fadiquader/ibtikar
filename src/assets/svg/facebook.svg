@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-954.000000, -362.000000)">
+            <g id="social-icons" transform="translate(954.000000, 362.000000)">
+                <g id="Facebook">
+                    <path d="M37.9671978,53.7510455 L15.9748776,53.7510455 C11.7634088,53.7510455 7.72443075,52.078046 4.74647259,49.1000878 C1.76851443,46.1221297 0.0955149631,42.0831517 0.0955149631,37.8716829 L0.0955149631,15.8793626 C0.0955149631,7.1094328 7.20494777,1.61100997e-15 15.9748776,0 L37.9671978,0 C46.7371276,5.37003323e-16 53.8465604,7.1094328 53.8465604,15.8793626 L53.8465604,37.8716829 C53.8465604,46.6416127 46.7371276,53.7510455 37.9671978,53.7510455 Z" id="Path" fill="#655DC6"></path>
+                    <rect id="Rectangle" fill="#FF671D" x="17.558834" y="26.055686" width="8.32572095" height="9.08984065"></rect>
+                    <rect id="Rectangle" fill="#FF671D" x="34.9743956" y="26.055686" width="8.32572095" height="9.08984065"></rect>
+                    <rect id="Rectangle" fill="#FFA400" x="34.9743956" y="7.99937816" width="8.32572095" height="9.08984065"></rect>
+                    <path d="M25.8686358,17.0892188 L25.868635,53.7510455 L34.9743956,53.7510455 L34.9743956,7.99935633 C32.5605399,7.99409132 30.2437959,8.94956105 28.5354453,10.654925 C26.8270948,12.3602889 25.8675727,14.6753575 25.8686358,17.0892188 Z" id="Path" fill="#38C2E8"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
