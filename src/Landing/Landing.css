@@ -9,7 +9,7 @@
   display: flex;
   /*justify-content: space-around;*/
   align-items: center;
-  /*max-width: 1200px;*/
+  max-width: 1200px;
   margin: 32px auto;
 }
 .landing-content > div:first-of-type {
@@ -17,7 +17,7 @@
 }
 .landing-content > div {
   padding: 32px;
-  flex: 0.5;
+  /*flex: 0.5;*/
 }
 .footer {
   /*position: absolute;*/

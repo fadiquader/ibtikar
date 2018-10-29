@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './Landing.css';
 //
-import {TopTraingle, Logo, BottomTraingle, Ul, Li} from './components';
+import {TopTraingle, Logo, BottomTraingle, Ul, Li, Container, charPoses} from './components';
+import SplitText from 'react-pose-text';
 
 const socials = {
   facebook: {
@@ -36,7 +37,11 @@ const services = {
 class Landing extends Component {
   render() {
     return (
-      <div className="landing-page">
+      <Container
+        animateOnMount={true}
+        initialPose="init"
+        pose="enter"
+        className="landing-page">
         <TopTraingle />
         <div className="landing-content">
           <div>
@@ -45,9 +50,9 @@ class Landing extends Component {
           <div >
             <div className="text-center">
               <p>
-                <a href="https://twitter.com/ibtikarom" target="_blank">
+                <Container>
                   @ibtikarom
-                </a>
+                </Container>
               </p>
               <Ul
                 animateOnMount={true}
@@ -57,7 +62,7 @@ class Landing extends Component {
                 {
                   Object.keys(socials).map((key, i) => {
                     return (
-                      <Li i={i} initialPose="init" pose="enter" key={key}>
+                      <Li i={i} initialPose="firstInit" pose="enter" key={key}>
                         <a href={socials[key]} target="_blank">
                           <img src={require(`../assets/svg/${key}.svg`)} alt={key}/>
                         </a>
@@ -67,8 +72,11 @@ class Landing extends Component {
                 }
               </Ul>
             </div>
+            <br/>
             <div className="text-center">
-              <p>Services</p>
+              <p>
+                <Container>Services</Container>
+              </p>
               <Ul
                 animateOnMount={true}
                 initialPose="init"
@@ -77,7 +85,7 @@ class Landing extends Component {
                 {
                   Object.keys(services).map((key, i) => {
                     return (
-                      <Li i={i} initialPose="init" pose="enter" key={key}>
+                      <Li i={i} initialPose="firstInit" pose="enter" key={key}>
                         <img src={require(`../assets/svg/${key}.svg`)} alt={key}/>
                       </Li>
                     )
@@ -89,9 +97,19 @@ class Landing extends Component {
         </div>
         <div className="footer">
           <BottomTraingle />
-          <p className="soon">Will be back</p>
+          <p className="soon">
+            <SplitText
+              animateOnMount={true}
+              initialPose="exit"
+              pose="enter"
+              charPoses={charPoses}
+            >
+              Will be back
+            </SplitText>
+          </p>
+
         </div>
-      </div>
+      </Container>
     );
   }
 }
