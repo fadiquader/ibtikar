@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import 'rc-tooltip/assets/bootstrap.css';
 import './App.css';
 //
 import { Landing } from './Landing';

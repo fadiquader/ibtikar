@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "flubber": "^0.4.2",
+    "rc-tooltip": "^3.7.3",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-pose": "^3.3.7",

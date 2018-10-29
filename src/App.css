@@ -20,3 +20,6 @@ body {
 .top-traing {
   margin-right: -100px;
 }
+.rc-tooltip-inner {
+  min-height: auto;
+}

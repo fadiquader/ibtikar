@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Tooltip from 'rc-tooltip';
 import './Landing.css';
 //
 import {TopTraingle, Logo, BottomTraingle, Ul, Li, Container, charPoses} from './components';
@@ -21,16 +22,16 @@ const socials = {
 
 const services = {
   smartApps: {
-    link: ""
+    tooltip: "Smart Apps"
   },
   webApps: {
-    link: ""
+    tooltip: "Web Apps"
   },
   vr: {
-    link: ""
+    tooltip: "AR Apps"
   },
   cartoon: {
-    link: ""
+    tooltip: "Cartoon"
   },
 };
 
@@ -86,7 +87,16 @@ class Landing extends Component {
                   Object.keys(services).map((key, i) => {
                     return (
                       <Li i={i} initialPose="firstInit" pose="enter" key={key}>
-                        <img src={require(`../assets/svg/${key}.svg`)} alt={key}/>
+                        <Tooltip
+                          arrowContent={<div className="rc-tooltip-arrow-inner"></div>}
+                          placement="bottom"
+                          destroyTooltipOnHide
+                          mouseEnterDelay={0}
+                          mouseLeaveDelay={0.1}
+                          overlay={services[key].tooltip}
+                        >
+                          <img src={require(`../assets/svg/${key}.svg`)} alt={key}/>
+                        </Tooltip>
                       </Li>
                     )
                   })
