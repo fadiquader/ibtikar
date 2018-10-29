@@ -202,7 +202,7 @@ export class Logo extends React.Component {
           animateOnMount={true}
           initialPose="logoInit"
           pose="logo"
-          width="250px" height="100px" viewBox="0 0 318 167" version="1.1">
+          width="450px" height="250px" viewBox="0 0 318 167" version="1.1">
           <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
             <g id="Desktop-HD" transform="translate(-308.000000, -419.000000)">
               <g id="Logo" transform="translate(308.000000, 419.000000)">
