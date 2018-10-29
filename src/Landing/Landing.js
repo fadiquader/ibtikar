@@ -25,10 +25,10 @@ const services = {
     tooltip: "Smart Apps"
   },
   webApps: {
-    tooltip: "Web Apps"
+    tooltip: "Web Applications"
   },
   vr: {
-    tooltip: "AR Apps"
+    tooltip: "VR/AR"
   },
   cartoon: {
     tooltip: "Cartoon"
